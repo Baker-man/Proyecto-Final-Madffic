@@ -4858,3 +4858,15 @@
 2022-12-10 11:32:33,497 [14048] INFO     root:247: [JupyterRequire] Initializing comms.
 2022-12-10 11:32:33,507 [14048] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2022-12-10 11:32:33,509 [14048] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-12-10 11:32:33,510 [14048] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-12-10 13:37:55,738 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F2DFADC70>
+2022-12-10 13:38:17,653 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F3602BA60>
+2022-12-10 13:44:57,304 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F3653F3A0>
+2022-12-10 13:45:04,869 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F2B35BE50>
+2022-12-10 13:45:53,488 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F37387910>
+2022-12-10 13:52:08,325 [14048] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x0000024F376D61C0>
+2022-12-10 13:59:17,967 [21072] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-12-10 13:59:17,967 [21072] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-12-10 13:59:17,968 [21072] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-12-10 13:59:17,969 [21072] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-12-10 13:59:17,970 [21072] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
