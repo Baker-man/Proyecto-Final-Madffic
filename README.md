@@ -3,8 +3,15 @@
 
 ![traffic](https://user-images.githubusercontent.com/112175733/201521353-046d7bba-13a1-4380-a506-c48363452433.png)
 
+**ÍNDICE**
 
-🎯 **OBJETIVOS**
+[1. Objetivos](#0)<br />
+[2. Pasos seguidos](#steps)<br />
+[3. Visualización](#viz)<br />
+
+------------------------------------------
+
+🎯 **OBJETIVOS**<a name="0"/>
 
 1) Crear un repo nuevo con files src, img, data, Readme.md y gitignore.
 
@@ -18,7 +25,7 @@
 
 ------------------------------------------
 
-📋 **PASOS SEGUIDOS**
+📋 **PASOS SEGUIDOS**<a name="steps"/>
 
 **1) Extracción** 
 
@@ -80,6 +87,19 @@ Una vez extraídos los datos y convertidos a los dataframes pertinentes, se ha p
   
 
 ------------------------------------------
+💹 **VISUALIZACIÓN**<a name="viz"/>
+
+1) Dashboard concentración de accidentes de tráfico en Madrid:
+
+![Dashboard1](https://user-images.githubusercontent.com/112175733/203138345-64af7a6b-dbca-4af6-9662-f988f3683a82.png)
+
+2) Dashboard de accidentes de tráfico en Madrid:
+
+![Dashboard2](https://user-images.githubusercontent.com/112175733/203138367-136020f9-b7b3-4941-9d46-6052d52d89a4.png)
+
+3) Mapa de calor dinámico por meses:
+
+https://user-images.githubusercontent.com/112175733/202927977-8a08705f-cc0e-45a1-a5cc-40ce513b6c10.mp4
 
 © **FUENTES**
 
