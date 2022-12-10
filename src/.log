@@ -4870,3 +4870,11 @@
 2022-12-10 13:59:17,968 [21072] INFO     root:247: [JupyterRequire] Initializing comms.
 2022-12-10 13:59:17,969 [21072] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2022-12-10 13:59:17,970 [21072] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-12-10 13:59:17,970 [21072] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-12-10 18:42:24,972 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 18:43:20,558 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 19:28:48,791 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 19:32:24,733 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 19:33:18,008 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 19:33:56,757 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
+2022-12-10 19:34:04,991 [21072] DEBUG    matplotlib.pyplot:280: [JupyterRequire] Loaded backend module://matplotlib_inline.backend_inline version unknown.
