@@ -97,9 +97,19 @@ Una vez extraídos los datos y convertidos a los dataframes pertinentes, se ha p
 
 ![Dashboard2](https://user-images.githubusercontent.com/112175733/203138367-136020f9-b7b3-4941-9d46-6052d52d89a4.png)
 
-3) Mapa de calor dinámico por meses:
+3) Dashboard de accidentes por distrito en Madrid:
+
+![Dashboard3](https://user-images.githubusercontent.com/112175733/207074840-9e0839bf-64f3-4fd8-b7e0-6c275533c2c4.png)
+
+4) Mapa de calor dinámico por meses:
 
 https://user-images.githubusercontent.com/112175733/202927977-8a08705f-cc0e-45a1-a5cc-40ce513b6c10.mp4
+
+5) Mapa de calor dinámico por horas:
+
+https://user-images.githubusercontent.com/112175733/207074905-606ae04e-3629-49bc-b708-2f67a3d541a4.mp4
+
+-------------------------------------------------------
 
 © **FUENTES**
 
