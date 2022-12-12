@@ -127,6 +127,16 @@ Accuracy | F1 score | Precision | Recall
 
 -------------------------------------------------------
 
+🚀 **HERRAMIENTAS UTILIZADAS**
+
+- Python: numpy, pandas, seaborn, matplotlib, selenium, beautiful soup, sklearn, utm, xgboost, catboost
+
+- MySQL
+
+- Power BI
+
+-------------------------------------------------------
+
 © **FUENTES**
 
 - Ficheros excel del Ayuntamiento de Madrid con los datos de accidentes por distrito para los años 2019-2022: https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=7c2843010d9c3610VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
