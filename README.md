@@ -8,20 +8,17 @@
 [1. Objetivos](#0)<br />
 [2. Pasos seguidos](#steps)<br />
 [3. Visualización](#viz)<br />
+[4. Machine Learning](#ML)<br />
 
 ------------------------------------------
 
 🎯 **OBJETIVOS**<a name="0"/>
 
-1) Crear un repo nuevo con files src, img, data, Readme.md y gitignore.
+1) Crear una base de datos con los accidentes de tráfico producidos en el municipio de Madrid y en la que se puedan añadir los futuros. 
 
-2) Issue con el link pegado de nuestro Repo
+2) Visualizar en un Dashboard los datos presentes en la base de datos que sirva para gestionar esos accidentes de tráfico. 
 
-3) Extracción de datos mediante dos métodos (CSV, Webscraping, APIs...) de tres fuentes distintas.
-
-4) Transformación de los dataframes obtenidos en el paso anterior:   
-
-5) Cargar datos limpios a una nueva base de datos.
+3) Crear un modelo predictivo de la severidad (basada en la lesividad) de los accidentes para que ayude determinar los recursos necesarios para atender a los implicados en ellos.   
 
 ------------------------------------------
 
@@ -108,6 +105,25 @@ https://user-images.githubusercontent.com/112175733/202927977-8a08705f-cc0e-45a1
 5) Mapa de calor dinámico por horas:
 
 https://user-images.githubusercontent.com/112175733/207074905-606ae04e-3629-49bc-b708-2f67a3d541a4.mp4
+
+-------------------------------------------------------
+🤖 **MACHINE LEARNING**<a name="ML"/>
+
+A partir de los datos de lesividad, se ha creado una nueva categoría denominada **severidad** de la siguiente manera:
+
+Lesividad | Severidad 
+--- | --- 
+Sin asistencia sanitaria, Asistencia sanitaria sólo en el lugar del accidente, Ingreso inferior o igual a 24 horas, Atención en urgencias sin posterior ingreso | Leve (0)  
+Asistencia sanitaria inmediata en centro de salud o mutua, Asistencia sanitaria ambulatoria con posterioridad | Media (1) 
+Ingreso superior a 24 horas, Fallecido 24 horas | Grave (2) 
+
+- Transformación de datos categóricos con getdummies
+
+- Random Forest Classifier: 
+
+Accuracy | F1 score | Precision | Recall
+--- | --- | --- | --- 
+0.90 | 0.86 | 0.85 | 0.90 
 
 -------------------------------------------------------
 
