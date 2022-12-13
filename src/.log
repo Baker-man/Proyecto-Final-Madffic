@@ -5010,3 +5010,4 @@
 2022-12-13 16:49:59,494 [10472] INFO     root:247: [JupyterRequire] Initializing comms.
 2022-12-13 16:49:59,500 [10472] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2022-12-13 16:49:59,501 [10472] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-12-13 16:49:59,502 [10472] DEBUG    root:97: [JupyterRequire] Registering comm targets.
