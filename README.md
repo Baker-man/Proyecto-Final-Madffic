@@ -155,14 +155,14 @@ Grados | Distancia
 
 🚀 **HERRAMIENTAS UTILIZADAS**
 
-- Lenguajes de programación: 
+- *Lenguajes de programación*: 
 
-  - Python: numpy, pandas, seaborn, matplotlib, selenium, beautiful soup, sklearn, utm, xgboost, catboost
-  - SQL
+  - **_Python_**: numpy, pandas, seaborn, matplotlib, selenium, beautiful soup, sklearn, utm, xgboost, catboost
+  - **_SQL_**
 
-- MySQL
+- *MySQL*
 
-- Power BI
+- *Power BI*
 
 -------------------------------------------------------
 
