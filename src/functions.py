@@ -42,3 +42,19 @@ def generateBaseMap(default_location=[40.416729, -3.703339], default_zoom_start=
                           zoom_start=default_zoom_start)
     
     return base_map
+
+#función para generar una matriz de correlación en un gráfico de calor.
+def print_corr(df):
+    
+    correlation = df.corr()
+
+    mask = np.zeros_like(correlation, dtype=bool)
+    mask[np.triu_indices_from(mask)] = True
+
+    f, ax = plt.subplots(figsize=(20, 10))
+
+    cmap = sns.diverging_palette(180, 20, as_cmap=True)
+    sns.heatmap(correlation, mask=mask, cmap=cmap, vmax=1, vmin =-1, center=0,
+                square=True, linewidths=.5, cbar_kws={"shrink": .5}, annot=True)
+
+    return plt.show()
