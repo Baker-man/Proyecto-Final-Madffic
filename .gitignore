@@ -12,6 +12,7 @@ password.txt
 
 #modelos
 random_forest_latitud.pk
+random_forest_longitud.pk
 
 # Object files
 *.o
