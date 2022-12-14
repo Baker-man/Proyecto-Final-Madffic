@@ -5,10 +5,10 @@
 
 **ÍNDICE**
 
-[1. Objetivos](#0)<br />
-[2. Pasos seguidos](#steps)<br />
-[3. Visualización](#viz)<br />
-[4. Machine Learning](#ML)<br />
+[1. Objetivos](#0) 🎯 <br />
+[2. Pasos seguidos](#steps) 📋 <br />
+[3. Visualización](#viz) 💹 <br />
+[4. Machine Learning](#ML) 🤖 <br />
 
 ------------------------------------------
 
