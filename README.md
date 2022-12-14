@@ -141,11 +141,24 @@ R2 test | R2 train | MSE | RMSE
 --- | --- | --- | --- 
 0.9514 | 0.9924 | 7.6589e-05 | 0.0087 
 
+Para tener en cuenta la referencia de lo que significa el error, aquí los equivalentes aproximados para grados de longitud y latitud en el sistema métrico:
+
+Grados | Distancia
+--- | ---  
+0.1 | 11.1 km
+0.01 | 1.11 km
+0.001 | 111 m
+0.0001 | 1.11 m
+
+
 -------------------------------------------------------
 
 🚀 **HERRAMIENTAS UTILIZADAS**
 
-- Python: numpy, pandas, seaborn, matplotlib, selenium, beautiful soup, sklearn, utm, xgboost, catboost
+- Lenguajes de programación: 
+
+  - Python: numpy, pandas, seaborn, matplotlib, selenium, beautiful soup, sklearn, utm, xgboost, catboost
+  - SQL
 
 - MySQL
 
