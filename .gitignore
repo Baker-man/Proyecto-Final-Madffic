@@ -10,6 +10,9 @@
 #contraseñas
 password.txt
 
+#modelos
+random_forest_latitud.pk
+
 # Object files
 *.o
 *.ko
