@@ -18,7 +18,9 @@
 
 2) Visualizar en un Dashboard los datos presentes en la base de datos que sirva para gestionar esos accidentes de tráfico. 
 
-3) Crear un modelo predictivo de la severidad (basada en la lesividad) de los accidentes para que ayude determinar los recursos necesarios para atender a los implicados en ellos.   
+3) Crear un modelo predictivo de la severidad (basada en la lesividad) de los accidentes para que ayude determinar los recursos necesarios para atender a los implicados en ellos.
+
+4) Crear un modelo predictivo de coordenadas de los accidentes para saber dónde va a ser necesitada atención médica, policial y/o la que sea necesaria y en cierta medida para intentar evitarlos.
 
 ------------------------------------------
 
@@ -119,11 +121,25 @@ Ingreso superior a 24 horas, Fallecido 24 horas | Grave (2)
 
 - Transformación de datos categóricos con getdummies
 
-- Random Forest Classifier: 
+- Random Forest Classifier (Severidad): 
 
 Accuracy | F1 score | Precision | Recall
 --- | --- | --- | --- 
 0.90 | 0.86 | 0.85 | 0.90 
+
+En segundo lugar, con la misma transformación de datos anterior, se han predecido las coordenadas de los accidentes de tráfico en Madrid mediante dos modelos, uno que predice la latiutd y otro la longitud.
+
+- Random Forest Regressor (Latitud): 
+
+R2 test | R2 train | MSE | RMSE
+--- | --- | --- | --- 
+0.9617 | 0.9944 | 4.4360e-05 | 0.0066 
+
+- Random Forest Regressor (Longitud): 
+
+R2 test | R2 train | MSE | RMSE
+--- | --- | --- | --- 
+0.9514 | 0.9924 | 7.6589e-05 | 0.0087 
 
 -------------------------------------------------------
 
