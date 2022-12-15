@@ -6222,3 +6222,4 @@
 2022-12-14 18:23:55,457 [8044] DEBUG    matplotlib.font_manager:1367: [JupyterRequire] findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Alejandro\\anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
 2022-12-14 18:24:43,564 [8044] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x00000299C9E87310>
 2022-12-14 18:24:45,595 [8044] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x00000299CA1614C0>
+2022-12-14 18:24:47,346 [8044] DEBUG    matplotlib.colorbar:847: [JupyterRequire] locator: <matplotlib.ticker.AutoLocator object at 0x00000299CA460340>
